@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.fa-download,
+.fa-share {
+  padding: 0.5rem;
+  color: var(--Sec-txt);
+  cursor: pointer;
+}
+.fa-download:hover {
+  background-color: var(--Bg-color);
+  color: var(--Main-hue);
+  border-radius: 50%;
+}
+.fa-share:hover {
+  background-color: var(--Bg-color);
+  color: var(--Main-hue);
+  border-radius: 50%;
+}
+
+.img-holder {
+  position: relative;
+}
+.img-holder .link {
+  position: absolute;
+  bottom: 10px; /*your button position*/
+  left: 100px; /*your button position*/
+  /* margin: 5px; */
+}
+.img-holder:hover {
+  background-color: var(--Bg-color);
+  color: var(--Main-hue);
+  border-radius: 50%;
+}
+.img-holder .link1 {
+  position: absolute;
+  color: purple;
+  bottom: 10px; /*your button position*/
+  left: 40px; /*your button position*/
+  /* margin: 5px; */
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
